@@ -1,0 +1,140 @@
+html{
+    font-size: 10px;
+    height: 100%;
+}
+body{
+    background-image: url("assets/pic/curved.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto 100vh;
+    overflow: hidden;
+}
+.syb{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 30%;
+    margin: .8rem;
+}
+.clll{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    align-items:center;
+    gap: 10rem;
+    margin: .8rem;
+    margin-right: 6rem;
+}
+.mmm1,.mmm2,.mmm3{
+    color: #091292;
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+a:link{
+    text-decoration: none;
+}
+.mmm3{
+    font-weight: 900;
+}
+.qwerty{
+    font-family: sans-serif;
+    font-size: 2.08rem;
+    font-weight: 400;
+    color: #8d81a5;
+    margin-left: 4.8rem;
+    margin-right: 8rem;
+    text-align: end;
+}
+.asdf{
+    font-family: sans-serif;
+    font-size: 4.8rem;
+    font-weight: 900;
+    color: #091292;
+    margin-right: 8rem;
+}
+.popo{
+    height: 2.1rem;
+    width: 2.1rem;
+}
+.xewfw{
+    margin-bottom: 16rem;
+    font-size: 3rem;
+    margin-left: .5rem;
+}
+.mre{
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+    margin-left: 40vw;
+}
+.ex{
+    display: flex;
+    justify-content:start;
+    margin-right: 8rem;
+    margin-top: 6.4rem;
+    color: #8d81a5;
+    font-size: 3.2rem;
+}
+.mqmq{
+    margin-top: 14vh;
+}
+@media(min-width:2160px) {
+    html{
+        font-size: 90%;
+    }
+}
+@media(max-width:768px) {
+    body{
+        background-image: none;
+    }
+    .mre{
+        margin-left: 0;
+    }
+}
+@media(max-width: 425px) {
+    .clll{
+        margin: 2rem;
+    }
+    .menu{
+        display: block;
+        align-items: center;
+        margin: 0%;
+    }
+    .mmm1,.mmm2,.mmm3{
+        color: #091292;
+        font-family: sans-serif;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+}
+@media(max-width: 556px) {
+    html{
+        font-size: 50%;
+    }
+    .clll{
+        margin: 2rem;
+    }
+    .menu{
+        display: block;
+        align-items: center;
+        margin: 0%;
+    }
+    .mmm1,.mmm2,.mmm3{
+        color: #091292;
+        font-family: sans-serif;
+        font-size: medium;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+    .mqmq{
+        margin-top: 5vh;
+    }
+}
+@media(max-width:346px) {
+    html{
+        font-size: 30%;
+    }
+}
